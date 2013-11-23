@@ -1,0 +1,1 @@
+Este archivo emula un servidor DNS local, este archivo funciona desde el mismo sistema operativo y permite emular rapidamente un ambiente de produccion

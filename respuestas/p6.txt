@@ -1,0 +1,7 @@
+WSGI <strong> Web Server Gateway Interface</strong> es una especificación para web
+ servers que permite la comunicacion entre la pagina web y el servidor.
+ A diferencia de CGI que permite la comunicacion entre una pagina web y un programa
+<ul>
+<li><strong>Apache</strong>: mod_wsgi</li>
+<li><strong>Nginx</strong>: uwsgi</li>
+</ul>

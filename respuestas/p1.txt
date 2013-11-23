@@ -1,0 +1,3 @@
+Un host virtual es una forma de "hostear" varios dominios en un solo servidor. Permite compartir recursos de un servidor
+entre los distintos dominios hosteados.
+Cada virtual host responde a un dominio permitiendo cambiar sus variables y recursos individualmente

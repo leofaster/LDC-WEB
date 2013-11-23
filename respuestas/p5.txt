@@ -1,0 +1,7 @@
+CGI <b>Common Gateway Interface </b> es un protocolo que se usa para comunicarse entre la pagina web y un programa que puede estar escrito en varios lenguajes
+ Los scripts CGI se usan para leer de STDIN y escribir a STDOUT, 
+ pudiendo escribirse en cualquier lenguaje (desde C o Perl hasta shell scripting).
+<ul>
+<li><strong>Apache:</strong> mod_cgi</li>
+<li><strong>Nginx:</strong> FastCGI </li>
+</ul>

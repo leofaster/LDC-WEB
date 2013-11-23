@@ -1,0 +1,5 @@
+Rack es una interfaz modular que permite a los servidores Web comunicarse 
+con los frameworks que desarrollan aplicaciones Web en Ruby. 
+Rack trabaja con peticiones HTTP, de manera que se establezca un API
+ simplificado para enlazarlas con procedimientos de Ruby. <br />
+Apache usa el módulo mod_ruby y nginx confía en submódulos de WSGI

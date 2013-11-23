@@ -1,0 +1,2 @@
+Esta configuracion hace que el servidor responda a las peticiones del puerto 80 que vayan dirigidas al dominio tarea2.talpor.com,
+y luego reescribe todas las peticiones a una direccion fijada con anterioridad.

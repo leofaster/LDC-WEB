@@ -12,8 +12,10 @@ html {
 	height: 100%; 
 	margin-bottom: 1px; 
 }
-.header {
-	background: #000;
+
+#header {
+   
+	background: #fffff;
 	cursor: pointer;
 	padding:4px;
 }
@@ -43,7 +45,8 @@ html {
 }
 
 #header h1 a:hover {
-	color:#000;
+	color:#7F7F7F;
+    text-decoration: none;
 }
 .selected{
 	background-color:#F00;
@@ -207,8 +210,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', end
 
 }
 h3:hover{
-    color:white;
-    border:0px;
+    border:2px;
+    letter-spacing:2px;
     background: rgb(255,183,107); /* Old browsers */
 background: -moz-linear-gradient(left,  rgba(255,183,107,1) 0%, rgba(255,124,0,1) 95%, rgba(255,167,61,1) 96%, rgba(255,127,4,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,183,107,1)), color-stop(95%,rgba(255,124,0,1)), color-stop(96%,rgba(255,167,61,1)), color-stop(100%,rgba(255,127,4,1))); /* Chrome,Safari4+ */

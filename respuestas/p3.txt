@@ -1,0 +1,2 @@
+Los servidores web suelen correr en el puerto 80 para las peticiones normales, y por el puerto 443 para las conexiones seguras. 
+por ser las conexiones predeterminadas, los navegadores web esconden el puerto de conexion el servidor

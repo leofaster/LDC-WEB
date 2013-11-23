@@ -1,0 +1,7 @@
+Un Webserver es una aplicación que responde a una petición http.
+
+<ul>
+    <li>Apache</li>
+    <li>Nginx</li>
+    <li>IIS</li>
+</ul>	

@@ -5,13 +5,26 @@
   <meta charset="utf-8" />
   <title>Tarea 2</title>
   <script src="js/jquery-1.9.1.js"></script>
-  <script src="js/jquery-ui.js"></script>
+  <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+  <link href='http://fonts.googleapis.com/css?family=Redressed' rel='stylesheet' type='text/css'>
   <script>
-    $(function() {
+    $(document).ready(function(){
+    
+    
+    $("#sec1").load("respuestas/p1.txt");
+    $("#sec2").load("respuestas/p2.txt");
+    $("#sec3").load("respuestas/p3.txt");
+    $("#sec4").load("respuestas/p4.txt");
+    $("#sec5").load("respuestas/p5.txt");
+    $("#sec6").load("respuestas/p6.txt");
+    $("#sec7").load("respuestas/p7.txt");
+    $("#sec8").load("respuestas/p8.txt");
+    $("#sec9").load("respuestas/p9.txt");
+    
     $( "#accordion" ).accordion({
-      collapsible: true,
-      heightStyle: "content"
+          collapsible: true,
+          heightStyle: "content"
     });
   });
   </script>
@@ -21,112 +34,98 @@
 <h1><a href="#">[DEVLABS-USB] Tarea 2</a></h1>
 <h2>Autor: Leopoldo Pimentel</h2>
 </div>
+
+
 <div id="accordion">
-<h3>Explicacion</h3>
-
-  <div class="accordion_child">
-    <p>Pagina realizada en css3 y AJAX. </p>
+    <h3>Explicacion</h3>
+    <div class="accordion_child">
+        <p>Página realizada en CSS3 y AJAX. Esta página usa como template de CSS el desarrollado por 
+        <a href="http://www.sixshootermedia.com">Six Shooter Media</a>. Adicioalmente, cada respuesta esta cargada de un 
+        archivo de texto independiente para cada pregunta.
+        </p>
 	</div>
-  <h3>¿Qué es un Virtual Host?</h3>
-  <div class="accordion_child">
-
+    <h3>1.¿Qué es un Virtual Host?</h3>
+    <div class="accordion_child">
 		<h2>Respuesta:</h2>							
+		<div id="sec1">
+        </div>
+    </div>
+    <h3>2.¿Qué es un Web server?</h3>
+    <div class="accordion_child">	
+    <h4>Enumere tres de ellos</h4>
+    <h2>Respuesta:</h2>	
+        <div id="sec2">
+        </div>	
+								
+    </div>
+    <h3>3.¿En qué puerto(s) suele correr un servidor web?</h3>
+    <div class="accordion_child">
+        <h2>Respuesta:</h2>	
+        <div id="sec3">
+        </div>	
+    </div>
+    <h3>4. Nombre 3 diferencias significativas entre apache y nginx</h3>
+    <div class="accordion_child">
+        <h4>Mencione 3 diferencias significativas entre apache y nginx. ¿En qué situaciones es
+        preferible utilizar cada uno?</h4>
+        <h2>Respuesta:</h2>
+        <div id="sec4">
+        </div>	
 		
     </div>
-  <h3>¿Qué es un Web server?</h3>
-  <div class="accordion_child">	
-  <h2>¿Qué es un Web server? Enumere tres de ellos</h2>
-  <h2>Respuesta:</h2>	
-				
-		<ul>
-		
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				
-		</ul>							
-    </div>
-  <h3>¿En qué puerto(s) suele correr un servidor web?</h3>
-      <div class="accordion_child">
-	<h2>Respuesta:</h2>	
+    <h3>5. ¿Qué es CGI?</h3>
+    <div class="accordion_child">
+        <h4>Mencione qué es CGI? Mencione módulos/implementaciones de CGI para Apache2 y
+        NGINX.</h4>
+        <h2>Respuesta:</h2>	
+        <div id="sec5">
+        </div>	
 	
-    </div>
-  <h3>3 diferencias significativas entre apache y nginx</h3>
-   <div class="accordion_child">
-	<h2>Mencione 3 diferencias significativas entre apache y nginx. ¿En qué situaciones es
-preferible utilizar cada uno?</h2>
-
-<h2>Respuesta:</h2>
-		<ul >
-		
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				
-		</ul>
-    </div>
-  <h3>¿Qué es CGI?</h3>
-  <div class="accordion_child">
-  <h2>Mencione qué es CGI? Mencione módulos/implementaciones de CGI para Apache2 y
-NGINX.</h2>
-<h2>Respuesta:</h2>	
-	<h4>Apache2    </h4>
-	<h4> NGINX   </h4>
     </div> 
-  <h3>¿Qué es WSGI?</h3>
- <div class="accordion_child">
-	<h2>Mencione qué es WSGI? Mencione módulos/implementaciones de WSGI para Apache2
-y NGINX.</h2>
-    
-    
-    
-  </div>
-  <h3>¿Qué es Rack?</h3>
-  <div class="accordion_child">
-	
-	<h2>Mencione qué es Rack? Mencione módulos/implementaciones de Rack para Apache2 y
-NGINX.</h2>
-<h2>Respuesta:</h2>	
-   
-</div>
-  
-	<h3>Explique que hace el siguiente virtual host (nginx):</h3>
+    <h3>6. ¿Qué es WSGI?</h3>
+    <div class="accordion_child">
+        <h4>Mencione qué es WSGI? Mencione módulos/implementaciones de WSGI para Apache2
+        y NGINX.</h4>
+        <h2>Respuesta:</h2>	
+        <div id="sec6"></div>	
+    </div>
+    <h3>7. ¿Qué es Rack?</h3>
+    <div class="accordion_child">
+        <h4>Mencione qué es Rack? Mencione módulos/implementaciones de Rack para Apache2 y
+        NGINX.</h4>
+        <h2>Respuesta:</h2>	
+        <div id="sec7"></div> 
+    </div>
+	<h3>8. Explique que hace el siguiente virtual host (nginx):</h3>
     <div class="accordion_child">
     <blockquote>
-    
-    server {
-listen 80;
-server_name talpor.com www.talpor.com;
-rewrite ^ https://talpor.com$request_uri? permanent;
-}
+        server {<br />
+        listen 80;<br />
+        server_name talpor.com www.talpor.com;<br />
+        rewrite ^ https://talpor.com$request_uri? permanent;<br />
+        }<br />
 	</blockquote>
-    <h4>Explique cómo hacer algo similar en Apache</h4>
-    <h2>Respuesta:</h2>
+        <h4>Explique cómo hacer algo similar en Apache</h4>
+        <h2>Respuesta:</h2>
+        <div id="sec8"></div>
     
     </div>
-  <h3>Funcionalidad tiene el archivo hosts</h3>
-  <div class="accordion_child">
-	<h2>Explique que funcionalidad tiene el archivo hosts (/etc/hosts) y como le puede ayudar a
-probar la configuración de un servidor web.</h2>
-<h2>Respuesta:</h2>	
+    <h3>9. Funcionalidad tiene el archivo hosts</h3>
+    <div class="accordion_child">
+        <h4>Explique que funcionalidad tiene el archivo hosts (/etc/hosts) y como le puede ayudar a
+        probar la configuración de un servidor web.</h4>
+
+        <h2>Respuesta:</h2>	
+        <div id="sec9"></div>
     </div>
     
   </div>
-  
-  
-  
-  
-  
 </div>
 
 <div id="footer">
 <p class="validate"><a href="http://validator.w3.org/check?uri=referer">XHTML</a> | <a href="http://jigsaw.w3.org/css-validator/">CSS</a><br /><a href="#content">Top</a></p>		
-
-
-<!-- Please leave this line intact -->
-<p>Diseño:Leopoldo Pimentel <br />
+<p>Diseño:Leopoldo Pimentel  sobre el template de  <a href="http://www.sixshootermedia.com">Six Shooter Media</a>.<br />
 AJAX: <a href="http://jqueryui.com/accordion/">jQuery Accordion</a>. 
-<!-- you can delete below here -->
 </p>
 </div>
 </body>

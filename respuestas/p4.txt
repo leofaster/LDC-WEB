@@ -1,0 +1,13 @@
+Existen varias diferencias entre apache y nginx.
+<ul>
+<li><strong>Memoria:</strong></li>
+Le manejador de memoria de Nginx es mucho más eficiente y por ende su consumo de memoria es mas bajo. Aun con el manejo de conexiones recurrentes
+<li><strong>Manejo de peticiones:</strong></li>
+El manejo de peticiones en Nginx es mucho más eficiente y por lo tanto tiene una mejor relacion de paginas requeridas vs paginas servidas
+
+<li><strong>Libreria de Funciones:</strong></li>
+Apache por ser uno de los servidores mas utilizados en la web. Ofrece una gran comunidad de desarrollo y una gran cantidad de funciones
+
+
+
+</ul>
